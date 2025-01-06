@@ -126,7 +126,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/r3ss1/Real-Estate-MobileApp.git
+git clone https://github.com/rr3s1/Real-Estate-MobileApp.git
 cd Real-Estate-MobileApp
 ```
 
