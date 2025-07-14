@@ -7,6 +7,7 @@ import {
 import * as Linking from "expo-linking";
 import { openAuthSessionAsync } from "expo-web-browser";
 
+
 // Configuration object for the Appwrite client
 export const config = {
     platform: "com.aessar.restate",
@@ -82,7 +83,7 @@ export async function logout() {
 /**
  * Fetches the currently authenticated user's data.
  */
-export async function getUser() {
+export async function getCurrentUser() {
     try {
         // Get the current user account details
         const result = await account.get();

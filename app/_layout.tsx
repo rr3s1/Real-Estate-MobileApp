@@ -1,9 +1,12 @@
-import {SplashScreen, Stack} from "expo-router";
+import { SplashScreen, Stack } from "expo-router";
 import "./global.css";
 import { useFonts } from "expo-font";
-import {useEffect} from "react";
+import { useEffect } from "react";
+import GlobalProvider from "@/lib/global-provider";
 
+// This is the root layout for the entire application.
 export default function RootLayout() {
+  // Load custom fonts for the application.
   const [fontsLoaded] = useFonts({
     "Rubik-Bold": require("../assets/fonts/Rubik-Bold.ttf"),
     "Rubik-ExtraBold": require("../assets/fonts/Rubik-ExtraBold.ttf"),
@@ -13,6 +16,7 @@ export default function RootLayout() {
     "Rubik-SemiBold": require("../assets/fonts/Rubik-SemiBold.ttf"),
   });
 
+  // Hide the splash screen once fonts are loaded.
   useEffect(() => {
     if (fontsLoaded) {
       SplashScreen.hideAsync();
@@ -22,5 +26,11 @@ export default function RootLayout() {
   if (!fontsLoaded) {
     return null;
   }
-  return    <Stack screenOptions={{ headerShown: false }} />;
+
+  return (
+      // Wrap the entire app with the GlobalProvider to make auth state available everywhere.
+      <GlobalProvider>
+        <Stack screenOptions={{ headerShown: false }} />
+      </GlobalProvider>
+  );
 }
