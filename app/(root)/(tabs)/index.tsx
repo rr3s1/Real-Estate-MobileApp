@@ -10,10 +10,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Link href="/sign-in">Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile">Profile</Link>
-      <Link href="/app/(root)/properties/1">Properties</Link>
+      <Text className="font-bold text-amber-600 text-4xl "> Welcome to Real Estate</Text>
+
     </View>
   );
 }
