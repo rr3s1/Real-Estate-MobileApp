@@ -1,9 +1,10 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/CzJQEstIiEI" target="_blank">
-      <img src="https://github.com/user-attachments/assets/040b665b-1475-4f25-a355-d202098136f5" alt="Project Banner">
+      <img width="308" height="452" alt="image" src="https://github.com/user-attachments/assets/57cf9102-6f73-4316-aeba-6ac6e41f9511" />
     </a>
-  <br />
+   
+   <br />
   <div>
     <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="expo" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
@@ -12,14 +13,10 @@
   </div>
 
   <h3 align="center">A Real Estate App</h3>
-
-
-   <div align="center">
-     In this project, I am coding along with Adrian Hajdin from JavaScript Mastery (YouTube) to build a Real Estate application. 
-
-
-
+   <div align="center">     
+<img width="506" height="502" alt="image" src="https://github.com/user-attachments/assets/a86eb82f-8aa8-4297-a5f3-238881d31ba6" />
 </div>
+
 </div>
 <div align="center">
     <br><br>
