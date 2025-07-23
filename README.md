@@ -3,7 +3,7 @@
     <a href="https://youtu.be/CzJQEstIiEI" target="_blank">
       <img width="308" height="452" alt="image" src="https://github.com/user-attachments/assets/57cf9102-6f73-4316-aeba-6ac6e41f9511" />
     </a>
-   
+    <br />
    <br />
   <div>
     <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="expo" />
@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
 
-  <h3 align="center">A Real Estate App</h3>
+  <h1 align="center">Real Estate Mobile App</h1>
    <div align="center">     
 <img width="506" height="502" alt="image" src="https://github.com/user-attachments/assets/a86eb82f-8aa8-4297-a5f3-238881d31ba6" />
 </div>
